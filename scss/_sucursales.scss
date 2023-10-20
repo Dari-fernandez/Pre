@@ -1,0 +1,30 @@
+/*SUCURSALES*/
+
+.contenedor-sucursales {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+/* Estilos para hacer que la imagen sea responsive */
+
+img {
+    max-width: 100%;
+    height: 100%;
+    width: auto;
+}
+
+/* Estilos para hacer que el mapa sea responsive */
+
+iframe {
+    width: 100%;
+    height: 100%;
+}

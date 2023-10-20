@@ -1,0 +1,41 @@
+/* Burguer*/
+
+.burgueContenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contenedorBurgue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 87, 239);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+
+    img {
+        max-width: 100%;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    button {
+        background-color: #442396;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: #28a745;
+        }
+    }
+}
