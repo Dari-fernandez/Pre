@@ -5,19 +5,19 @@
 .pioneros {
   font-size: 2rem;
   font-weight: bold;
-  color: #050404;
+  color: #FAFAFA;
   text-align: center;
+  background-image: linear-gradient(#7AB730, #7AB730);
+  justify-content: center;
+  height: 300px;
 }
 .pioneros h1 {
-  color: #6738f6;
-}
-.pioneros h2 {
+  color: black;
   font-size: 1.7rem;
 }
-.pioneros p {
-  font-size: 1.5rem;
-  font-weight: lighter;
-  text-align: center;
+.pioneros img {
+  width: auto;
+  height: 250px;
 }
 
 .encabezado {
@@ -86,6 +86,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
 }
 .banner::after {
   content: "";
@@ -197,6 +198,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
+  border: 3px;
 }
 
 label {
@@ -212,12 +214,13 @@ textarea {
 }
 
 button {
-  background-color: #007BFF;
+  background-color: #000001;
   color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  width: 30%;
 }
 button:hover {
   background-color: #0056b3;
@@ -310,7 +313,7 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(87, 87, 239);
+  background-color: rgba(87, 87, 239, 0.293);
   border: 1px solid #ccc;
   padding: 20px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
