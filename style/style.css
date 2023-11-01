@@ -277,6 +277,7 @@ h1 {
 .contenedor-sucursales {
   display: flex;
   justify-content: space-between;
+  min-height: 100vh;
 }
 
 .map-container {
